@@ -10,7 +10,7 @@ app = Flask(__name__)
 # -----------------------
 #  CONFIGURATION
 # -----------------------
-OMDB_API_KEY = "a1eed391"  # Your OMDb API key
+OMDB_API_KEY = "OMDb API"  
 
 # Load ML-based dataset
 movies = pickle.load(open('movies.pkl', 'rb'))
